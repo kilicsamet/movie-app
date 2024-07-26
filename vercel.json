@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/api/movies",
+      "dest": "https://www.omdbapi.com/",
+      "headers": {
+        "Access-Control-Allow-Origin": "*"
+      }
+    },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ],
+  "env": {
+    "REACT_APP_API_URL": "https://www.omdbapi.com",
+    "REACT_APP_API_KEY": "851ec3e1"
+  }
+}
