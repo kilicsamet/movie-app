@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card-img-container {
+  position: relative;
+  overflow: hidden; /* Resmin taşmasını engeller */
+}
+
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5); /* Koyu bir arka plan */
+  color: #fff; /* Yazı rengi beyaz */
+  padding: 0.5rem;
+  border-bottom-left-radius: 0.25rem;
+  font-size: 0.75rem; /* Küçük yazı boyutu */
+}
+
+.card:hover .card-img-top {
+  opacity: 0.5; /* Fare ile üzerine gelindiğinde resmin soluklaşması */
+}
+
+
+.card-img-container {
+  position: relative;
+  overflow: hidden; /* Resmin taşmasını engeller */
+}
+
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5); /* Koyu bir arka plan */
+  color: #fff; /* Yazı rengi beyaz */
+  padding: 0.5rem;
+  border-bottom-left-radius: 0.25rem;
+  font-size: 0.75rem; /* Küçük yazı boyutu */
+}
+
+.card:hover .card-img-top {
+  opacity: 0.5; /* Fare ile üzerine gelindiğinde resmin soluklaşması */
+}
