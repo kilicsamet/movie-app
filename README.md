@@ -1,5 +1,5 @@
 
-### `yarn start`
+# `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -7,7 +7,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ection about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Building Movie.UI
+# `Building Movie.UI`
 
 Get the project's build using Makefile.
 
@@ -24,13 +24,15 @@ make run-dev
 Movie.UI will be accessible at `http://localhost:3000`.
 
 
-### GitHub Actions
+# `GitHub Actions`
 
 This project uses GitHub Actions to automate continuous integration and deployment processes. When code changes are made, the application is automatically tested and built. After successful builds, the application is automatically deployed.
 
-## Version Tagging and Pushing
+## `Version Tagging and Pushing`
 
-# Create a New Version Tag
+
+
+### `Create a New Version Tag`
 
 When creating a new version for the project, you should update version tags only after pushing your code changes. Follow these steps to tag and push versions.
 ```
@@ -40,7 +42,7 @@ When creating a new version for the project, you should update version tags only
 
 This command tags the current commit as v1.0.1. Tags are used to mark specific points in the repository's history, typically after changes have been made.
 
-# Push the Tags to the Remote Repository
+### `Push the Tags to the Remote Repository`
 
 ```
 git push --tags 
